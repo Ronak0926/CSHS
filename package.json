@@ -1,0 +1,22 @@
+{
+  "name": "cshs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronak0926/cshs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ronak0926/cshs/issues"
+  },
+  "homepage": "https://github.com/Ronak0926/cshs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
