@@ -1,0 +1,35 @@
+var num = Math.random() * 9;
+console.log(num);
+
+
+var num = Math.random() * 9 + 1;
+console.log(num);
+
+
+var roundedNum = Math.round(_);
+console.log(roundedNum);
+var flooredNum = Math.floor(_);
+console.log(flooredNum);
+
+
+var num = Math.floor(Math.random() * 9) + 1;
+console.log(num);
+
+
+var maximum = Math.max(1, 6, 24, 4, 86, 16, 97, 23, 54, 89);
+var minimum = Math.min(1, 6, 24, 4, 86, 16, 97, 23, 54, 89);
+console.log(maximum);
+console.log(minimum);
+
+
+var numberArray = [1, 6, 24, 4, 86, 16, 97, 23, 54, 89];
+console.log(Math.max(...numberArray));
+console.log(Math.min(...numberArray));
+
+
+console.log(Math.sin(_));
+console.log(Math.cos(_));
+console.log(Math.tan(_));
+
+console.log(Math.sqrt(_));
+console.log(Math.pow(_, _));

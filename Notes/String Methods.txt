@@ -1,0 +1,63 @@
+var sentence = 'Abhi really likes telling people "who asked" whenever they say something.';
+console.log(sentence.charAt(14));
+
+
+var sentence = 'Abhi really likes telling people "who asked" whenever they say something.';
+console.log(sentence.search('who asked'));
+
+
+var sentence = 'Abhi really likes telling people "who asked" whenever they say something.';
+console.log(sentence.endsWith('something.'));
+console.log(sentence.endsWith('.'));
+console.log(sentence.endsWith('example'));
+console.log(sentence.endsWith('people', 32));
+
+
+var sentence = 'Abhi really likes telling people "who asked" whenever they say something.';
+console.log(sentence.startsWith('Abhi'));
+console.log(sentence.startsWith('A'));
+console.log(sentence.startsWith('example'));
+console.log(sentence.startsWith('really', 5));
+
+
+var sentence = 'Abhi really likes telling people "who asked" whenever they say something.';
+console.log(sentence.includes('who asked'));
+console.log(sentence.includes('abhi is really funny when he says "who asked"'));
+
+
+var stringOne = 'This is the first part.';
+var stringTwo = 'This is the sequel.';
+console.log(stringOne.concat(' ', stringTwo));
+
+
+var sentence = 'Abhi, stop saying "who asked." ';
+console.log(sentence.repeat(42));
+
+
+var sentence = 'Abhi really likes telling people "who asked" whenever they say something.';
+console.log(sentence.replace('Abhi really likes', 'Abhi has now stopped'));
+
+
+var sentence = 'One One One One One One One One One One One One One One One One One One One One One One One One One One';
+console.log(sentence.replace('One', 'Two'));
+console.log(sentence.replaceAll('One', 'Two'));
+
+
+var sentence = 'Abhi will hopefully stop saying "who asked."';
+console.log(sentence.slice(12));
+console.log(sentence.slice(-12));
+console.log(sentence.slice(0, 5));
+
+
+var sentence = 'Abhi will hopefully stop saying "who asked."';
+var words = sentence.split(' ');
+console.log(words[4]);
+var chars = sentence.split('');
+console.log(chars[4]);
+
+
+var sentence = 'I tHink AbHi stOpPed sAyiNg "whO asKed."';
+var upper = sentence.toUpperCase();
+var lower = sentence.toLowerCase();
+console.log(upper);
+console.log(lower);
